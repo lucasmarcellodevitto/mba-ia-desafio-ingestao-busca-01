@@ -179,4 +179,4 @@ pergunta do usuário → vetorização → similarity_search(k=10)
 | `GOOGLE_EMBEDDING_MODEL` | Modelo de embeddings | `gemini-embedding-001` |
 | `GOOGLE_LLM_MODEL` | Modelo LLM para respostas | `gemini-2.5-flash-lite` |
 | `DATABASE_URL` | String de conexão PostgreSQL | `postgresql+psycopg://postgres:postgres@localhost:5432/rag` |
-| `PG_VECTOR_COLLECTION_NAME` | Nome da coleção no pgVector | `mba_rag` |
+| `PG_VECTOR_COLLECTION_NAME` | Nome da coleção no pgVector | `pdf_content` |
