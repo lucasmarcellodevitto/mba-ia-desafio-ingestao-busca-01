@@ -130,7 +130,11 @@ python src/chat.py
 Exemplo de uso:
 
 ```
-////////TODO
+Starting Chat...
+Ask your question. Type 'exit' or press Ctrl+C to quit.
+Ask your question: {sua pergunta}
+Here is your answer:{sua resposta} 
+
 ```
 
 ---
