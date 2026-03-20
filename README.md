@@ -161,12 +161,12 @@ mba-ia-desafio-ingestao-busca-01/
 ## Como funciona
 
 ```
-INGESTÃO
+Primeiro Faça a ingestão do arquio PDF na base
 document.pdf → PyPDFLoader → chunks (1000 chars, overlap 150)
              → GoogleGenerativeAIEmbeddings (gemini-embedding-001)
              → PGVector → PostgreSQL (coleção mba_rag)
 
-BUSCA
+Faça interação com o chat para obter respostas:
 pergunta do usuário → vetorização → similarity_search(k=10)
                     → 10 chunks mais relevantes → prompt com contexto
                     → ChatGoogleGenerativeAI (gemini-2.5-flash-lite)
